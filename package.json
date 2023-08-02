@@ -1,0 +1,19 @@
+{
+    "name": "binance-trading-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "nodemon": "nodemon --exec ts-node index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "binance-api-node": "^0.12.6",
+        "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.1"
+    }
+}
